@@ -1,0 +1,25 @@
+{% extends 'core/base.html' %}
+{% block title%}Portada{% endblock %}
+{% block content%}
+
+{% load static %}
+<section style="background-image: url('{% static 'core/imagenes/toro.jpg' %}')">
+<div class="container">
+  <div id="home">
+    <img class="masthead">
+      <div class="overlay">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+              <div class="site-heading">
+                <h1 style="color:white">Productos Lácteos</h1>
+                  <span class="subheading" style="color:white">Feedlot ecológico</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+{% endblock %} 
